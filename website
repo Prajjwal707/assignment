@@ -244,14 +244,14 @@
     <section class="two-paragraphs">
         <h2>Discover Our Estate</h2>
         <div class="content">
-            <p class="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget urna felis.</p>
-            <p class="right">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.</p>
+            <p class="left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione corporis quod magnam facere saepe nesciunt provident suscipit repellat alias tempora ea hic, odio animi aliquid quis quibusdam praesentium excepturi blanditiis similique voluptatem exercitationem! Quidem, delectus! Molestiae qui, culpa iure nemo tempora obcaecati ullam omnis, laborum numquam assumenda explicabo modi!</p>
+            <p class="right">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum ratione corporis quod magnam facere saepe nesciunt provident suscipit repellat alias tempora ea hic, odio animi aliquid quis quibusdam praesentium excepturi blanditiis similique voluptatem exercitationem! Quidem, delectus! Molestiae qui, culpa iure nemo tempora obcaecati ullam omnis, laborum numquam assumenda explicabo modi!</p>
         </div>
     </section>
 
     <!-- Wine Quote Section -->
     <section class="wine-quote">
-        <img src="https://www.shutterstock.com/shutterstock/photos/299042579/display_1500/stock-photo-filtered-infrared-square-nature-background-with-alone-tree-299042579.jpg" alt="full image">
+        <img src="https://img.freepik.com/free-photo/beautiful-natural-view-landscape_23-2150787996.jpg" alt="full image">
         <div class="wine-text">
             <h2>Wine Pairs Nicely With Good Friends</h2>
             <a href="#upcoming-events" class="btn">Upcoming Events</a>
@@ -265,7 +265,8 @@
                 <h2>Adventure Is The Best Way To Learn Something New</h2>
             </div>
             <div class="about-right">
-                <p>I’m a text box. Double click me to edit the text or to change the way I look. You can change the font, size, color, and so much more...</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam exercitationem iure sequi accusantium ea deleniti error ut. Assumenda consectetur voluptatum maxime adipisci, ut obcaecati voluptatem illum, ad odio cum neque vitae? Dolor, dolore et! Incidunt odit nesciunt minima blanditiis aliquid illo, reprehenderit minus. Dolores, quaerat. Dicta earum facilis sit nemo! Nemo hic temporibus dolores nulla velit harum, soluta perspiciatis, voluptatem quaerat facere beatae! Odio eligendi dolor fuga quisquam aut quam fugiat voluptates temporibus consectetur ea debitis aperiam velit molestiae suscipit praesentium eum provident ratione dolore vitae, quod totam incidunt animi? Aliquam perferendis provident impedit. Laudantium commodi dolore obcaecati officiis facere?
+                </p>
             </div>
         </div>
     </section>
@@ -273,11 +274,11 @@
     <!-- Book a Tour Section -->
     <section class="book-tour">
         <div class="book-left">
-            <img src="https://thumbs.dreamstime.com/b/ladybug-green-leaf-concept-tranquility-beauty-nature-square-format-photo-ladybug-green-leaf-concept-tranquility-195985477.jpg" alt="full image">
+            <img src="https://st.depositphotos.com/1500858/4773/i/450/depositphotos_47735173-stock-photo-green-tree-nature-landscape.jpg" alt="full image">
         </div>
         <div class="book-right">
             <h2>Explore Our Winery</h2>
-            <p>Join us for a tour and experience the beauty of our estate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, adipisci perspiciatis reprehenderit voluptate, asperiores, officiis illum inventore nobis explicabo ipsa a autem in rem reiciendis tempora dolor enim numquam. Itaque quis asperiores tempora explicabo nisi voluptatem, nobis magni laborum laboriosam rem adipisci quibusdam quaerat iure provident distinctio? Sit totam consequuntur modi? Quas officia libero cum vitae quidem consectetur in itaque sint temporibus repudiandae, dolore ipsam molestiae quod quibusdam. Modi veritatis a veniam provident molestiae vitae magnam minima enim nihil? Culpa consequatur sapiente incidunt reiciendis omnis quam distinctio facere vel officia laboriosam nostrum debitis quos, ex temporibus, dolores porro cum iusto! Commodi, dolorem perspiciatis, ab nesciunt totam aspernatur quaerat tempore voluptates consectetur veniam error vitae inventore blanditiis neque consequatur nobis aperiam voluptate. Quo doloribus iste veniam neque, expedita in provident maxime natus totam laudantium fuga ex quibusdam mollitia ducimus magnam, molestias facilis error repellendus. Adipisci ratione error ad vel quis commodi velit explicabo obcaecati facere, quas, praesentium laudantium veniam ipsam aperiam, eligendi culpa perferendis vero. Expedita eum totam quo aspernatur eaque beatae odit. Necessitatibus, quae aliquid fugiat, excepturi expedita a optio voluptates error laudantium, ipsa eos? Temporibus itaque, molestias minus distinctio, pariatur culpa excepturi optio harum nam blanditiis sapiente odio animi.</p>
             <a href="#book-tour" class="btn">Book a Tour</a>
         </div>
     </section>
@@ -299,7 +300,7 @@
 
     <!-- Final Adventure Section -->
     <section class="final-adventure">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiZoBCHUghN6dL6ZHLcwLKBqZleCotBm3tjw&s" alt="full image">
+        <img src="https://img.lovepik.com/photo/48013/0650.jpg_wh860.jpg" alt="full image">
         <div class="adventure-text">
             <h2>A New Adventure Is Waiting For You</h2>
         </div>
@@ -316,7 +317,7 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <div class="social-links">
+        <div class="social-links">+
             <a href="#instagram">Instagram</a>
             <a href="#facebook">Facebook</a>
             <a href="#twitter">Twitter</a>
@@ -325,3 +326,4 @@
 
 </body>
 </html>
+}
