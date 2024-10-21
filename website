@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vigneto - A Estate Winery</title>
+    
+</head>
+<style>
+     * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+      
+      body {
+          font-family: Arial, sans-serif;
+      }
+      
+      header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 20px;
+          background-color: #333;
+          color: #fff;
+      }
+      
+      .header-left h1 {
+          font-size: 2.5em;
+          font-weight: bold;
+      }
+      
+      .header-left p {
+          font-size: 1.2em;
+          border-top: 1px solid #fff;
+          padding-top: 5px;
+      }
+      
+      nav ul {
+          list-style: none;
+          display: flex;
+          gap: 15px;
+      }
+      
+      nav ul li a {
+          color: #fff;
+          text-decoration: none;
+          padding: 10px 15px;
+          transition: background-color 0.3s;
+      }
+      
+      nav ul li a:hover {
+          background-color: #555;
+      }
+      
+      .hero {
+          position: relative;
+          text-align: center;
+      }
+      
+      .hero img {
+          width: 100%;
+          height: auto;
+      }
+      
+      .hero-text {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+      }
+      
+      .hero-text h2 {
+          font-size: 3em;
+      }
+      
+      .two-paragraphs {
+          padding: 40px;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+      }
+      
+      .two-paragraphs .content {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 20px;
+      }
+      
+      .wine-quote {
+          position: relative;
+      }
+      
+      .wine-quote img {
+          width: 100%;
+          height: auto;
+      }
+      
+      .wine-text {
+          position: absolute;
+          top: 30%;
+          left: 10%;
+          color: white;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+      }
+      
+      .wine-text h2 {
+          font-size: 2.5em;
+      }
+      
+      .wine-text .btn {
+          display: inline-block;
+          margin-top: 20px;
+          padding: 10px 20px;
+          background-color: #fff;
+          color: #333;
+          text-decoration: none;
+          transition: background-color 0.3s;
+      }
+      
+      .wine-text .btn:hover {
+          background-color: #555;
+          color: #fff;
+      }
+      
+      .about {
+          padding: 40px;
+          display: flex;
+          justify-content: space-between;
+          background-color: #f4f4f4;
+      }
+      
+      .book-tour {
+          display: flex;
+          padding: 40px;
+      }
+      
+      .book-right {
+          padding-left: 20px;
+      }
+      
+      .book-right .btn {
+          margin-top: 20px;
+          padding: 10px 20px;
+          background-color: #333;
+          color: #fff;
+          text-decoration: none;
+          transition: background-color 0.3s;
+      }
+      
+      .book-right .btn:hover {
+          background-color: #555;
+      }
+      
+      .events {
+          padding: 40px;
+          display: flex;
+          justify-content: space-between;
+          background-color: #f4f4f4;
+      }
+      
+      .events .event {
+          margin-bottom: 20px;
+      }
+      
+      .final-adventure {
+          position: relative;
+      }
+      
+      .final-adventure img {
+          width: 100%;
+          height: auto;
+      }
+      
+      .adventure-text {
+          position: absolute;
+          top: 30%;
+          left: 50%;
+          transform: translateX(-50%);
+          color: white;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+      }
+      
+      footer {
+          background-color: #333;
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+      }
+      
+      footer nav ul {
+          display: flex;
+          justify-content: center;
+          gap: 20px;
+          list-style: none;
+      }
+      
+      footer nav ul li a {
+          color: #fff;
+          text-decoration: none;
+      }
+      
+      footer .social-links {
+          margin-top: 20px;
+      }
+      
+      footer .social-links a {
+          margin: 0 10px;
+          color: #fff;      
+</style>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-left">
+            <h1>Vigneto</h1>
+            <p>A Estate Winery</p>
+        </div>
+        <div class="header-right">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="https://img.freepik.com/premium-photo/photo-random-nature-hd-wallpaper-8k4k_915071-66835.jpg" alt="full image">
+        <div class="hero-text">
+            <h2>Welcome to Vigneto</h2>
+            <p>Experience the finest wines and hospitality in our estate winery.</p>
+        </div>
+    </section>
+
+    <!-- Two Paragraph Section -->
+    <section class="two-paragraphs">
+        <h2>Discover Our Estate</h2>
+        <div class="content">
+            <p class="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget urna felis.</p>
+            <p class="right">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.</p>
+        </div>
+    </section>
+
+    <!-- Wine Quote Section -->
+    <section class="wine-quote">
+        <img src="https://www.shutterstock.com/shutterstock/photos/299042579/display_1500/stock-photo-filtered-infrared-square-nature-background-with-alone-tree-299042579.jpg" alt="full image">
+        <div class="wine-text">
+            <h2>Wine Pairs Nicely With Good Friends</h2>
+            <a href="#upcoming-events" class="btn">Upcoming Events</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="about-content">
+            <div class="about-left">
+                <h2>Adventure Is The Best Way To Learn Something New</h2>
+            </div>
+            <div class="about-right">
+                <p>I’m a text box. Double click me to edit the text or to change the way I look. You can change the font, size, color, and so much more...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book a Tour Section -->
+    <section class="book-tour">
+        <div class="book-left">
+            <img src="https://thumbs.dreamstime.com/b/ladybug-green-leaf-concept-tranquility-beauty-nature-square-format-photo-ladybug-green-leaf-concept-tranquility-195985477.jpg" alt="full image">
+        </div>
+        <div class="book-right">
+            <h2>Explore Our Winery</h2>
+            <p>Join us for a tour and experience the beauty of our estate.</p>
+            <a href="#book-tour" class="btn">Book a Tour</a>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events">
+        <div class="events-left">
+            <h2>Our Events</h2>
+            <div class="event">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyd3x1tbhjj5PWGoTsHbEdLNo7ZvdzLR8uIQ&s" alt="full image">
+                <h3>Wine Tasting</h3>
+                <p>Join us for a wine tasting event every weekend.</p>
+            </div>
+        </div>
+        <div class="events-right">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBzHCCTod_Fx8EYAp9F-vP_XFODUmR3_KBbA&s" alt="full image">
+        </div>
+    </section>
+
+    <!-- Final Adventure Section -->
+    <section class="final-adventure">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiZoBCHUghN6dL6ZHLcwLKBqZleCotBm3tjw&s" alt="full image">
+        <div class="adventure-text">
+            <h2>A New Adventure Is Waiting For You</h2>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <h2>Vigneto</h2>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="social-links">
+            <a href="#instagram">Instagram</a>
+            <a href="#facebook">Facebook</a>
+            <a href="#twitter">Twitter</a>
+        </div>
+    </footer>
+
+</body>
+</html>
